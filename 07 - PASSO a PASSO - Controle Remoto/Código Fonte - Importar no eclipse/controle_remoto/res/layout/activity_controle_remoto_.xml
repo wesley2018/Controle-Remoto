@@ -1,0 +1,311 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+	tools:context="com.example.controle_remoto_app.ControleActivity" 
+	android:background="#FFFFFF">
+	
+    <!-- INICIO DA 1ª LINHA DE BOTÕES -->
+    <LinearLayout 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:paddingTop="30px"
+				android:background="#FFFFFF">
+	<ImageButton
+        android:id="@+id/btLiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/liga" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+        android:id="@+id/btEject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/eject" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+        android:id="@+id/btMute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mute" />
+		</LinearLayout>
+		<!-- FIM DA 1ª LINHA DE BOTÕES -->
+		
+		<!-- INICIO DA 2ª LINHA DE BOTÕES -->
+		<LinearLayout 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:background="#FFFFFF">
+	<ImageButton
+        android:id="@+id/btPlayPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play_pause" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+        android:id="@+id/btVolta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/volta" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+        android:id="@+id/btAdianta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/adianta" />
+		</LinearLayout>
+		<!-- FIM DA 2ª LINHA DE BOTÕES -->
+		<!-- INICIO DA 3ª LINHA DE BOTÕES -->
+		<LinearLayout 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:background="#FFFFFF">
+	<ImageButton
+        android:id="@+id/btUm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/um" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+        android:id="@+id/btDois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dois" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+        android:id="@+id/btTres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tres" />
+		</LinearLayout>
+		<!-- FIM DA 3ª LINHA DE BOTÕES -->
+		
+		<!-- INICIO DA 4ª LINHA DE BOTÕES -->
+		<LinearLayout 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:background="#FFFFFF">
+	<ImageButton
+        android:id="@+id/btQuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quatro" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+        android:id="@+id/btCinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cinco" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+        android:id="@+id/btSeis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/seis" />
+		</LinearLayout>
+		<!-- FIM DA 4ª LINHA DE BOTÕES -->
+		
+		<!-- INICIO DA 5ª LINHA DE BOTÕES -->
+		<LinearLayout 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:background="#FFFFFF">
+	<ImageButton
+        android:id="@+id/btSete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sete" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+        android:id="@+id/btOito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oito" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+        android:id="@+id/btNove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nove" />
+		</LinearLayout>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- FIM DA 5ª LINHA DE BOTÕES -->
+		
+		<!-- INICIO DA 6ª LINHA DE BOTÕES -->
+		<LinearLayout 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:background="#FFFFFF">
+	<ImageButton
+        android:id="@+id/btVcima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/acima" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+        android:id="@+id/btZero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zero" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+        android:id="@+id/btCcima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/acima" />
+		</LinearLayout>
+		<!-- FIM DA 6ª LINHA DE BOTÕES -->
+		
+		<!-- INICIO DA 7ª LINHA DE BOTÕES -->
+		<LinearLayout
+    		    android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:background="#FFFFFF">
+			
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/volu"
+        android:clickable="false"
+        android:background="#FFFFFF"/>
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="100px"/>
+	
+	<ImageButton
+        android:id="@+id/btEntrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/entrada"/>
+
+    <TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="100px"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chn"
+        android:clickable="false"
+        android:background="#FFFFFF"/>
+		</LinearLayout>
+		<!-- FIM DA 7ª LINHA DE BOTÕES -->
+		
+		<!-- INICIO DA 8ª LINHA DE BOTÕES -->
+		<LinearLayout 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:background="#FFFFFF">
+	<ImageButton
+        android:id="@+id/btVbaixo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abaixo" />
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+	<ImageButton
+	    android:id="@+id/btOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ok"/>
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="75px" />
+
+	<ImageButton
+        android:id="@+id/btCabaixo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abaixo" />
+		</LinearLayout>
+		<!-- FIM DA 8ª LINHA DE BOTÕES -->
+</LinearLayout>
